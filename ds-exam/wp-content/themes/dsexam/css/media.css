@@ -1,0 +1,112 @@
+
+
+/* Large Tablet Devices ----------- */
+@media only screen 
+and (max-width : 980px) {
+	html, body{
+		-webkit-touch-callout: none;
+		-webkit-user-select: none; /* Webkit */
+		-moz-user-select: none;    /* Firefox */
+		-ms-user-select: none;     /* IE 10  */
+	}
+
+	/*
+	* Header
+	*/
+
+	.page-content{padding:0 20px; text-align: justify;}
+	header.page-header {height: auto; overflow: visible;}
+	
+	.logo-wrapper,
+	.cb-logo{ text-align: center; float: none;  margin: auto; display: block;}
+
+	/*
+ 	* Primary Navigation Config
+	*/
+	
+	nav.page-nav{float: none; clear: both;}
+	
+	nav.page-nav ul{ margin: 0; padding: 0;text-align: center; }
+	
+	nav.page-nav li{width: 24%;display: inline-block; vertical-align: top; text-align: left;}
+	
+	nav.page-nav ul li a{text-indent: 10px; margin: auto;}
+	
+	nav.page-nav li span{display: block; 
+	}
+	
+	/* Nth Drop Down */
+	nav.page-nav ul ul,
+	nav.page-nav ul li:hover ul{display: none; left: 0; top: 100%;}
+	
+	nav.page-nav ul ul li a{ text-indent: 25px; }
+	
+	/* Content Area Drop Down */
+	
+	.page-content,
+	aside.page-sidebar{float: none; margin: auto; width: 100%;}
+	
+	/*
+	* Copyright, Icons Config
+	*/
+	
+	#copyright, .icons{float: none;margin: 1em auto; text-align: center;}
+
+}
+
+/* Table Devices */
+@media only screen 
+and (max-width : 734px) {
+	
+	/*
+	* Header
+	*/
+	
+	.logo-wrapper,
+	.cb-logo{ float: left; }
+	
+	/*
+ 	* Primary Navigation Config
+	*/
+	.bottomNav{display:none;}
+	.nav-toggle-button,
+	nav.page-nav li,
+	nav.page-nav li span{ display: block; }
+	
+	nav.page-nav{display: none;}
+	
+	nav.page-nav ul{margin: 0; padding: 0;}
+	
+	nav.page-nav li{width: 100%;display: block; border-top: 1px solid #fff;}
+	
+	nav.page-nav li a{padding: 10px 0;}
+	
+	/* Nth Drop Down */
+	nav.page-nav ul ul{ position: relative;}
+	
+	nav.page-nav ul ul li a{width: auto;}
+
+	.logo{margin:0 auto; float:none; display:block; text-align: center; padding-top: 35px;}
+
+	.menu-navigation ul li i{display:none;}
+}
+
+	/* Smartphones */
+@media only screen 
+	and (max-width : 500px) {
+		/* 
+		* Footer Area Config 
+		*/
+		
+		.nav-footer ul{padding: 0 20px;}
+		
+		.nav-footer ul li{display: block;}
+
+	/* Iphone */	
+	@media only screen 
+	and (max-width : 320px) {
+		.dropdown ul li:hover > ul {display:none;}
+	}
+
+
+}

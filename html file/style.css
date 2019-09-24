@@ -1,0 +1,272 @@
+html, body, div, span, applet, object, iframe, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: normal;
+	font-family: 'Poppins', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+
+a:hover {
+	color:#fff;
+	text-decoration: underline !important;
+}
+
+.btn-cdomains {
+    color: #fff;
+    background-color: #FF6B6B;
+    border-radius: 40px !important;
+}
+
+.btn-cdomains-trans {
+    color: #fff;
+    background-color: transparent;
+    border-radius: 40px !important;
+    border:2px solid #fff;
+}
+
+.clearfix {
+	clear:both !important;
+	overflow: hidden !important;
+}
+
+/* navigation */
+
+nav {
+	height: 75px;
+}
+
+nav li a{
+	color:#fff;
+}
+
+/* banner */
+
+.banner {
+	width:100%;
+	height:auto
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.carousel-caption {
+	left:70px !important;
+	top:30% !important;
+	text-align:left !important;
+}
+
+.feature {
+	width:100%;
+	height:auto;
+	padding:20px;
+	text-align: center;
+}
+
+.feature h1 {
+	font-weight:bold;
+	color:#545454;
+	padding-top:50px;
+	padding-bottom:15px;
+}
+
+.feature p {
+	font-size:14px;
+	color:#9B9B9B;
+}
+
+.feature ul {
+	margin-top:20px;
+}
+
+.feature ul li {
+	display:inline-block;
+	margin:0 10px;
+}
+
+.feature ul li a {
+	width:60%;
+	text-align: center;
+	margin:10px auto 0 auto;
+}
+
+.besttours {
+	width:100%;
+	min-height:637px;
+	height: auto;
+	background: url(images/tour.jpg) no-repeat center center fixed; 
+	color:#fff;
+	text-align: center;
+	padding-top:200px;
+}
+
+.why {
+	text-align: center;
+	padding:20px 0;
+}
+
+.why h1{
+	padding-top:50px;
+	padding-bottom:50px;
+	color:#545454;
+}
+
+.why p {
+	font-size:14px;
+	color:#9B9B9B;
+}
+
+
+.partners {
+	width:100%;
+	background:#F5F5F5;
+	padding:30px;
+	text-align: center;
+}
+
+.partners h1 {
+	padding-top:30px;
+	padding-bottom:30px;
+	color:#545454;
+}
+
+.partners ul li {
+	display:inline-block;
+	padding:0 15px;
+}
+
+.client {
+	padding:30px;
+}
+
+.client h1 {
+	padding-top:30px;
+	padding-bottom:30px;
+	color:#545454;
+	text-align: center;
+}
+
+.client p {
+	font-size:14px;
+	font-weight: 300;
+}
+
+.client p strong {
+	color:#9B9B9B;
+}
+
+.client a.btn {
+	margin:40px auto 0 auto;
+	clear:both;
+	overflow: hidden;
+	text-align: center;
+	display:block;
+	width:20%;
+}
+
+footer {
+	width:100%;
+	min-height:90px;
+	height: auto;
+	background:#000;
+	padding-top:30px;
+}
+
+
+.footerlogo {
+	float:left;
+}
+
+.social {
+	float:right;
+}
+
+.social ul li {
+	display:inline-block;
+	margin:0 5px;
+}
+
+
+
+/* Modal */
+
+.modal-header {
+	background: #212121 !important;
+	color:#fff !important;
+}
+
+.modal-header .close {
+	margin-top:-45px !important;
+	opacity: 1 !important;
+	text-shadow:none !important;
+}
+
+.modal-header .close span {
+	background: #FF6B6B;
+	border-radius: 100px;
+    padding: 0 7px;
+    font-size: 20px;
+    margin: 0 -25px 0 0px;
+    color:#fff !important;
+}
+
+.modal-footer {
+	justify-content: flex-start !important;
+}
+
+.iconforms {
+	position: absolute;
+	top:1px;
+	left:1px;
+}
+
+.modal-body .controlName, .modal-body .controlphone, .modal-body .controlemail{
+	height:60px !important;
+	text-indent: 65px;
+}
+
+.modal-body .controlmessage{
+	text-indent: 65px;
+}
+
+
+.modal-body .form-group {
+	position: relative;
+}
+
+.modal-body .textformcontrol {
+	height:auto !important;
+}
+
+
+
